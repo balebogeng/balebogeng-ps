@@ -1,0 +1,40 @@
+/*
+ *  Colour scheme:
+ *   - #2e5266 (Dark Blue)
+ *   - #333333 (Dark Grey)
+ *   - #e2c044 (Golden Yellow)
+ *   - #f0f0f0 (Greyish White) [mainly for text]
+ *   - #ffffff (White) [mainly for sections]
+ */
+
+/*  --- General --- */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/*  --- Navbar --- */
+nav.navbar {
+    background-color: #2e5266;
+    /* Hide the navbar initially but show on scroll */
+    position:fixed;
+	top:0px;
+	width:100%; 
+	height:75px;
+	z-index:9999;
+	display: none;
+}
+
+nav a,
+nav a:hover,
+nav.navbar {
+    color: #f0f0f0;
+}
+
+/*  --- Footer --- */
+.footer {
+    background-color: #333333;
+    color: #f0f0f0;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
