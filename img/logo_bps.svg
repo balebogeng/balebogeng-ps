@@ -58,8 +58,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="283.84131"
-     inkscape:cy="480.13788"
+     inkscape:cx="457.31049"
+     inkscape:cy="433.62857"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -70,7 +70,7 @@
      inkscape:window-maximized="1"
      inkscape:pagecheckerboard="true"
      borderlayer="false"
-     showguides="true"
+     showguides="false"
      inkscape:snap-global="true"
      fit-margin-left="5"
      fit-margin-top="5"
@@ -94,17 +94,17 @@
      id="layer1"
      transform="translate(3.3611399,-127.35597)">
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 45.766278,254.34265 c 20.251566,19.17342 47.688084,30.57213 75.564082,31.39365 30.13043,0.88796 60.43996,-10.6696 82.32934,-31.39365"
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.26533511px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 41.552498,254.8517 c 20.42088,19.18241 47.990418,30.57105 75.995802,31.39296 30.2727,0.88845 60.72554,-10.65755 82.79969,-31.39296"
        id="path6199"
        inkscape:connector-curvature="0"
        inkscape:path-effect="#path-effect6201"
-       inkscape:original-d="m 45.766278,254.34265 c 25.18829,10.46428 50.376316,20.92883 75.564082,31.39365 25.18776,10.46482 54.88649,-20.92937 82.32934,-31.39365" />
+       inkscape:original-d="m 41.552498,254.8517 c 25.332194,10.46404 50.664124,20.92836 75.995802,31.39296 25.33167,10.46458 55.20007,-20.92892 82.79969,-31.39296" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.2264193px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:0.23979165px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:path-effect="#path-effect5445"
-       inkscape:original-d="m 85.310427,166.80524 c 10.485156,-9.1671 29.705983,-8.4442 42.538623,-15.73922 12.83272,-7.29521 23.61948,8.69557 37.44899,16.11722"
-       d="m 85.310427,166.80524 c 11.301122,-10.65694 27.022633,-16.47387 42.538623,-15.73922 13.87099,0.65677 27.4365,6.49506 37.44899,16.11722"
+       inkscape:original-d="m 79.667004,164.80829 c 11.790551,-9.14354 33.404376,-8.42249 47.834686,-15.69876 14.43038,-7.27645 26.56011,8.67322 42.11139,16.07578"
+       d="m 79.667004,164.80829 c 13.361829,-10.75206 30.700146,-16.44229 47.834686,-15.69876 15.27246,0.66272 30.2824,6.39268 42.11139,16.07578"
        id="path5443"
        inkscape:connector-curvature="0" />
     <g
@@ -152,11 +152,6 @@
            style="fill:#e2c044;fill-opacity:1" />
       </g>
     </g>
-    <path
-       style="fill:#f9f9f9;stroke:#000000;stroke-width:0.1748656px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 82.627993,172.08616 c 10.735757,-8.42014 26.058737,-13.35191 41.484377,-13.35191 15.42564,0 30.74862,4.93177 41.48438,13.35191 0.66931,0.52495 1.32138,1.0626 1.95537,1.61229"
-       id="path5383"
-       inkscape:connector-curvature="0" />
     <g
        style="fill:#ffffff"
        id="g4917"
@@ -168,28 +163,6 @@
          id="path4987"
          inkscape:connector-curvature="0" />
     </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="116.79678"
-       y="149.46722"
-       id="text5328"><tspan
-         sodipodi:role="line"
-         id="tspan5326"
-         x="116.79678"
-         y="158.48476"
-         style="stroke-width:0.26458332" /></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:11.61457443px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#302d2e;fill-opacity:1;stroke:none;stroke-width:0.29036438"
-       id="text5433"
-       x="-0.26726952"
-       y="-3.3408692"
-       transform="matrix(1.0518605,0,0,0.96251085,-7.0828438,4.1311558)"><textPath
-         xlink:href="#path5443"
-         id="textPath5447"><tspan
-   style="font-weight:bold;font-size:13.93749046px;fill:#302d2e;fill-opacity:1;stroke-width:0.29036438"
-   id="tspan5431">BALEBOGENG</tspan></textPath></text>
     <g
        transform="matrix(0.04204963,0,0,-0.03768225,-14.825594,323.24946)"
        inkscape:label="ink_ext_XXXXXX"
@@ -637,14 +610,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#302d2e;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="91.406189"
-       y="172.71967"
+       x="85.793533"
+       y="174.05602"
        id="text6136"><tspan
          sodipodi:role="line"
          id="tspan6134"
-         x="91.406189"
-         y="172.71967"
-         style="font-size:8.46666622px;fill:#302d2e;fill-opacity:1;stroke-width:0.26458332">PRIMARY SCHOOL</tspan></text>
+         x="85.793533"
+         y="174.05602"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:Arial;-inkscape-font-specification:Arial;fill:#302d2e;fill-opacity:1;stroke-width:0.26458332">PRIMARY SCHOOL</tspan></text>
     <g
        id="g6146"
        transform="matrix(0.06890423,0,0,0.04554067,93.714576,197.3881)">
@@ -684,10 +657,19 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:13.44069099px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#302d2e;fill-opacity:1;stroke:none;stroke-width:0.33601728"
        id="text6194"
-       transform="matrix(0.91835064,-0.0450905,0.04372382,0.94705553,3.3600826,14.944188)"><textPath
+       transform="matrix(0.85841123,-0.01345124,0.0116143,0.92973061,18.815922,17.332839)"><textPath
          xlink:href="#path6199"
          id="textPath6203"
-         style="font-weight:bold;font-size:17.63888931px;fill:#302d2e;fill-opacity:1;stroke-width:0.33601728">NTHUTE KE ITHUTE</textPath></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.63888931px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#302d2e;fill-opacity:1;stroke-width:0.33601728">NTHUTE KE ITHUTE</textPath></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.97941303px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#302d2e;fill-opacity:1;stroke:none;stroke-width:0.3244853"
+       id="text976"
+       transform="rotate(2.9273272,139.68171,190.23924)"><textPath
+         xlink:href="#path5443"
+         id="textPath978"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#302d2e;fill-opacity:1;stroke-width:0.3244853"
+   id="tspan974">BALEBOGENG</tspan></textPath></text>
   </g>
   <style
      id="style4036"
