@@ -1,7 +1,7 @@
 /*
  *  Colour scheme:
  *   - #2e5266 (Dark Blue)
- *   - #333333 (Dark Grey)
+ *   - #222222 (Dark Grey)
  *   - #e2c044 (Golden Yellow)
  *   - #f0f0f0 (Greyish White) [mainly for text]
  *   - #ffffff (White) [mainly for sections]
@@ -14,26 +14,107 @@ body {
 }
 
 /*  --- Navbar --- */
-nav.navbar {
-    background-color: #2e5266;
-    /* Hide the navbar initially but show on scroll */
+nav a {
+    color: #eeeeee;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+nav.navbar.navbar-view-blend {
     position:fixed;
 	top:0px;
 	width:100%; 
-	height:75px;
-	z-index:9999;
-	display: none;
+    height:175px;
+    padding: 120px 100px;
+    z-index:9999;
+
+    -webkit-transition: background-color 0.3s,
+                        height 0.8s,
+                        padding 0.8;
+    -moz-transition: background-color 0.3s,
+                        height 0.8s,
+                        padding 0.8s;
+    -o-transition: background-color 0.3s,
+                        height 0.8s,
+                        padding 0.8s;
+    transition: background-color 0.3s,
+                        height 0.8s,
+                        padding 0.8s;
 }
 
-nav a,
-nav a:hover,
-nav.navbar {
+nav.navbar.navbar-view-static {
+    background-color: #2e5266;
+    height:54px;
+    padding: 8px 16px;
+
+    -webkit-transition: background-color 0s,
+                        height 0.8s,
+                        padding 0.8;
+    -moz-transition: background-color 0s,
+                        height 0.8s,
+                        padding 0.8s;
+    -o-transition: background-color 0s,
+                        height 0.8s,
+                        padding 0.8s;
+    transition: background-color 0s,
+                        height 0.8s,
+                        padding 0.8s;
+}
+
+.navbar-brand.navbar-brand.navbar-view-blend {
+    font-size: 30px;
+    font-weight: 500;
+    color: #f0f0f0;
+}
+
+.navbar-brand.navbar-brand.navbar-view-static {
+    font-size: 18px;
+}
+
+.navbar-brand.navbar-view-blend img {
+    height: 250px;
+    width: 250px;
+
+    -webkit-transition: width 0.8s, height 0.8s;
+    -moz-transition: width 0.8s, height 0.8s;
+    -o-transition: width 0.8s, height 0.8s;
+    transition: width 0.8s, height 0.8s;
+}
+
+.navbar-brand.navbar-view-static img {
+    height: 65px;
+    width: 65px;
+
+    -webkit-transition: width 0.8s, height 0.8s;
+    -moz-transition: width 0.8s, height 0.8s;
+    -o-transition: width 0.8s, height 0.8s;
+    transition: width 0.8s, height 0.8s;
+}
+
+/* Content Header */
+#content-header {
+    margin: 0 !important;
+    padding-top: 190px !important;
+    padding-bottom: 140px !important;
+    background-image: url(../img/board.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content-header h1 {
+    color: #bbbbbb;
+}
+
+#content-header p {
     color: #f0f0f0;
 }
 
 /*  --- Footer --- */
 .footer {
-    background-color: #333333;
+    background-color: #222222;
     color: #f0f0f0;
     padding-top: 2em;
     padding-bottom: 2em;

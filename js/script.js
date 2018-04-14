@@ -1,18 +1,19 @@
 $(document).ready(function () {
   /* Global vars */
-  var SCROLL_PX_LIMIT = 80;
-  var NAV_SCROLL_FADE_TIME = 500;
+  var SCROLL_PX_LIMIT = 85;
 
   /* Events */
   $(window).scroll(function () {
     /* 
      * If the user scrolls past a scroll limit,
-     * fade the navbar in and out as necessary.
+     * add and remove CSS classes for transition effects.
      */
     if ($(this).scrollTop() > SCROLL_PX_LIMIT) {
-      $('nav.navbar').fadeIn(NAV_SCROLL_FADE_TIME);
+      $('.navbar-view-blend').addClass('navbar-view-static');
+      $('.navbar-view-blend').removeClass('navbar-view-blend');
     } else {
-      $('nav.navbar').fadeOut(NAV_SCROLL_FADE_TIME);
+      $('.navbar-view-static').addClass('navbar-view-blend');
+      $('.navbar-view-static').removeClass('navbar-view-static');
     }
   });
 });
