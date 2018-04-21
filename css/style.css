@@ -12,6 +12,7 @@ body {
     padding: 0;
     margin: 0;
     position: relative;
+    overflow-x: hidden;
 }
 
 .text-giant {
@@ -36,10 +37,6 @@ nav.navbar.navbar-view-blend a:hover  {
 
 nav.navbar {
     overflow: hidden;
-}
-
-.navbar-brand.navbar-brand.navbar-view-blend {
-    margin-top: 20px;
 }
 
 nav.navbar.navbar-view-blend {
