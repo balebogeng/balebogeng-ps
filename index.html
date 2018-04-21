@@ -11,34 +11,81 @@
   <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 
-<body>
-  <!-- Navbar  -->
-  <nav class="navbar navbar-expand-md fixed-top">
-    <a class="navbar-brand" href="#">Balebogeng Primary School</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse"
-      data-target="#balebogengNav" aria-controls="balebogengNav"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  </nav>
+<body data-spy="scroll" data-target="#navbar-bps" data-offset="0">
+  <!-- Header -->
+  <header>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-md fixed-top navbar-view-blend" id="navbar-bps">
+      <a class="navbar-brand navbar-view-blend" href="#">
+        <img src="img/logo_bps.svg" class="navbar-view-blend" />
+        Balebogeng Primary School
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#balebogeng-nav" aria-controls="balebogeng-nav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbar-nav-dropdown" class="navbar-collapse collapse">
+        <ul class="navbar-nav mr-auto">
+          <!-- Empty for right alignment of navbar items -->
+        </ul>
+        <ul class="navbar-nav">
+          <li class=nav-item>
+            <a class="nav-link" href="#content-welcome">Welcome</a>
+          </li>
+          <li class=nav-item>
+            <a class="nav-link" href="#content-about">About us</a>
+          </li>
+          <li class=nav-item>
+            <a class="nav-link" href="#content-gallery">Gallery</a>
+          </li>
+          <li class=nav-item>
+            <a class="nav-link" href="#content-contact">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
   <!-- Main body -->
-  <main class="container">
-    <div class="row">
-      
-      <!-- Temporary: used to simulate content for testing navbar fade -->
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+  <main role="main">
+    <!-- Main content header -->
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" id="content-header">
+      <div class="col-md-6 p-lg-5 mx-3 my-5">
+        <h1 class="display-5 font-weight-bold text-bps-gold">NTHUTE KE ITHUTE</h1>
+        <blockquote class="blockquote">
+          <p class="mb-0 font-italic test-light">
+            <span class="text-giant">&#8220;</span>
+            We invite you to be apart of a family that has contributed directly and indirectly to the lives of so
+            many individuals.
+          </p>
+          <footer class="blockquote-footer text-bps-gold">Balebogeng PS Principal</footer>
+        </blockquote>
+      </div>
     </div>
+
+    <!-- Main body content container -->
+    <div class="container-fluid content-main">
+      <!-- Remove height styling: Temporary for content simulation -->
+      <section id="content-welcome">
+          <div class="row" style="height: 50em;">
+          </div>
+        </section>
+      <section id="content-about">
+        <div class="row" style="height: 50em;">
+        </div>
+      </section>
+      <section id="content-gallery">
+        <div class="row" style="height: 50em;">
+        </div>
+      </section>
+      <section id="content-contact">
+        <div class="row" style="height: 50em;">
+        </div>
+      </section>
+    </div>
+    <!-- /.container -->
   </main>
-  <!-- /.container -->
 
   <footer class="footer">
     <div class="container">
