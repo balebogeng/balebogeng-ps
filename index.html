@@ -11,33 +11,36 @@
   <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar-bps" data-offset="0">
   <!-- Header -->
   <header>
     <!-- Navbar  -->
-    <nav class="navbar navbar-expand-md fixed-top navbar-view-blend">
+    <nav class="navbar navbar-expand-md fixed-top navbar-view-blend" id="navbar-bps">
       <a class="navbar-brand navbar-view-blend" href="#">
         <img src="img/logo_bps.svg" class="navbar-view-blend" />
         Balebogeng Primary School
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse"
-        data-target="#balebogengNav" aria-controls="balebogengNav"
+        data-target="#balebogeng-nav" aria-controls="balebogeng-nav"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div id="navbarNavDropdown" class="navbar-collapse collapse">
+      <div id="navbar-nav-dropdown" class="navbar-collapse collapse">
         <ul class="navbar-nav mr-auto">
           <!-- Empty for right alignment of navbar items -->
         </ul>
         <ul class="navbar-nav">
           <li class=nav-item>
-            <a class="nav-link" href="#">About us</a>
+            <a class="nav-link" href="#content-welcome">Welcome</a>
           </li>
           <li class=nav-item>
-            <a class="nav-link" href="#">Gallery</a>
+            <a class="nav-link" href="#content-about">About us</a>
           </li>
           <li class=nav-item>
-            <a class="nav-link" href="#">Contact us</a>
+            <a class="nav-link" href="#content-gallery">Gallery</a>
+          </li>
+          <li class=nav-item>
+            <a class="nav-link" href="#content-contact">Contact us</a>
           </li>
         </ul>
       </div>
@@ -62,10 +65,24 @@
     </div>
 
     <!-- Main body content container -->
-    <div class="container">
+    <div class="container-fluid content-main">
       <!-- Remove height styling: Temporary for content simulation -->
-      <div class="row" style="height: 80em;">
-      </div>
+      <section id="content-welcome">
+          <div class="row" style="height: 50em;">
+          </div>
+        </section>
+      <section id="content-about">
+        <div class="row" style="height: 50em;">
+        </div>
+      </section>
+      <section id="content-gallery">
+        <div class="row" style="height: 50em;">
+        </div>
+      </section>
+      <section id="content-contact">
+        <div class="row" style="height: 50em;">
+        </div>
+      </section>
     </div>
     <!-- /.container -->
   </main>

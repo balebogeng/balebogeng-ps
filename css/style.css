@@ -1,6 +1,6 @@
 /*
  *  Colour scheme:
- *   - #2e5266 (Dark Blue)
+ *   - #145c9e (Blue)
  *   - #222222 (Dark Grey)
  *   - #e2c044 (Golden Yellow)
  *   - #f0f0f0 (Greyish White) [mainly for text]
@@ -11,6 +11,7 @@
 body {
     padding: 0;
     margin: 0;
+    position: relative;
 }
 
 .text-giant {
@@ -28,16 +29,24 @@ nav a {
     color: #eeeeee;
 }
 
-nav a:hover {
-    color: #ffffff;
+nav a:hover,
+nav.navbar.navbar-view-blend a:hover  {
+    color: #e2c044;
+}
+
+nav.navbar {
+    overflow: hidden;
+}
+
+.navbar-brand.navbar-brand.navbar-view-blend {
+    margin-top: 20px;
 }
 
 nav.navbar.navbar-view-blend {
     position:fixed;
 	top:0px;
-	width:100%; 
-    height:200px;
-    padding: 90px 100px;
+    height: 260px;
+    padding: 8px 100px;
     z-index:9999;
 
     -webkit-transition: background-color 0.3s,
@@ -55,7 +64,7 @@ nav.navbar.navbar-view-blend {
 }
 
 nav.navbar.navbar-view-static {
-    background-color: #2e5266;
+    background-color: #145c9e;
     height:54px;
     padding: 8px 16px;
 
@@ -103,6 +112,16 @@ nav.navbar.navbar-view-static {
     transition: width 0.8s, height 0.8s;
 }
 
+.nav-item .nav-link {
+    padding-top: 16px;
+    padding-bottom: 10px;
+    border-bottom: transparent solid 3px;
+}
+
+.nav-item .nav-link.active {
+    border-bottom: #e2c044 solid 3px;
+}
+
 /* Content Header */
 #content-header {
     margin: 0 !important;
@@ -120,6 +139,23 @@ nav.navbar.navbar-view-static {
 
 #content-header p {
     color: #f0f0f0;
+}
+
+/* --- Content Main --- */
+.container-fluid.content-main {
+    padding: 0;
+}
+
+#content-about {
+    background-color: #f0f0f0;
+}
+
+#content-gallery {
+    background-color: #145c9e;
+}
+
+#content-contact {
+    background-color: #f0f0f0;
 }
 
 /*  --- Footer --- */
