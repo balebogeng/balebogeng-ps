@@ -1,6 +1,6 @@
 $(document).ready(function () {
   /* Global vars */
-  var SCROLL_PX_LIMIT = 85;
+  var SCROLL_PX_LIMIT = 65;
 
   /* Events */
   // Un-blend the navbar from the content header when scrolling

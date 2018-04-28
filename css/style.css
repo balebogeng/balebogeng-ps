@@ -122,7 +122,30 @@ nav.navbar.navbar-view-static {
     color: #ffffff;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
+    nav.navbar.navbar-view-blend {
+        height: 260px;
+        padding: 8px 20px;
+    }
+    
+    .navbar-brand.navbar-brand.navbar-view-blend {
+        font-size: 22px;
+        font-weight: 500;
+    }
+    
+    .navbar-brand.navbar-brand.navbar-view-static {
+        font-size: 14px;
+        margin-right: 4px;
+    }
+    
+    .navbar-brand.navbar-view-blend img {
+        height: 200px;
+        width: 230px;
+    }
+
+}
+
+@media (max-width: 900px) {
     nav.navbar.navbar-view-blend {
         height: 260px;
         padding: 8px 20px;
@@ -160,6 +183,10 @@ nav.navbar.navbar-view-static {
     .navbar-view-blend .navbar-toggler {
         visibility: hidden;
     }
+
+    .navbar-view-blend .navbar-nav .nav-item .nav-link {
+        color: transparent !important;
+    }
 }
 
 /* Content Header */
@@ -188,7 +215,7 @@ nav.navbar.navbar-view-static {
     left: -10px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 900px) {
     #content-header {
         background-position-x: 58%;
         background-position-y: 100%;
