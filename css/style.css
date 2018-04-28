@@ -138,6 +138,13 @@ nav.navbar.navbar-view-static {
     color: #f0f0f0;
 }
 
+@media (max-width: 600px) {
+    #content-header {
+        background-position-x: 58%;
+        background-position-y: 100%;
+    }
+}
+
 /* --- Content Main --- */
 .container-fluid.content-main {
     padding: 0;
