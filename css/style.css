@@ -306,12 +306,13 @@ nav.navbar.navbar-view-static {
     color: #ffffff;
 }
 
-.footer-navigate h6 {
+.footer-navigate h6,
+.footer-sponsors h6 {
     color: #c2c2c2;
+    margin-bottom: 32px;
 }
 
 .footer-navigate ul {
-    margin-top: 32px;
     text-decoration: none;
     list-style-type: none;
     padding: 0;
@@ -323,4 +324,74 @@ nav.navbar.navbar-view-static {
 
 .footer-navigate ul li a:hover {
     color: #c2c2c2;
+}
+
+.footer-sponsors h6 {
+    margin-bottom: 32px;
+}
+
+.footer .sponsor {
+    padding: 0;
+    cursor: pointer;
+}
+
+.footer .sponsor h6 {
+    color: #868686;
+}
+
+.footer .sponsor .logo-text {
+    padding: 0;
+    -webkit-transition: color 0.6s;
+    -moz-transition: color 0.6s;
+    -o-transition: color 0.6s;
+    transition: color 0.6s;
+}
+
+.footer .sponsor .logo-placeholder {
+    min-height: 50px;
+    min-width: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    -webkit-transition: color 0.6s, background-image 0.6s;
+    -moz-transition: color 0.6s, background-image 0.6s;
+    -o-transition: color 0.6s, background-image 0.6s;
+    transition: color 0.6s, background-image 0.6s;
+}
+
+.footer .sponsor.old-mutual:hover {
+    color: #6eab24;
+}
+
+.footer .sponsor.psc:hover {
+    color: #84b7bb;
+}
+
+.footer .sponsor.up:hover {
+    color: #c48b3b;
+}
+
+.footer .sponsor.old-mutual .logo-placeholder {
+    background-image: url(../img/old-mutual.svg);
+}
+
+.footer .sponsor.psc .logo-placeholder {
+    background-image: url(../img/public-service-commission.svg);
+}
+
+.footer .sponsor.up .logo-placeholder {
+    background-image: url(../img/university-of-pretoria.svg);
+}
+
+.footer .sponsor.old-mutual .logo-placeholder:hover {
+    background-image: url(../img/old-mutual-alt.svg);
+}
+
+.footer .sponsor.psc .logo-placeholder:hover {
+    background-image: url(../img/public-service-commission-alt.svg);
+}
+
+.footer .sponsor.up .logo-placeholder:hover {
+    background-image: url(../img/university-of-pretoria-alt.svg);
 }
