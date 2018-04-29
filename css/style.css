@@ -238,15 +238,19 @@ nav.navbar.navbar-view-static {
     margin: 0 !important;
 }
 
-#content-about {
+#about-us {
+    background-color: #ffffff;
+}
+
+#activities {
     background-color: #f0f0f0;
 }
 
-#content-gallery {
+#gallery {
     background-color: #145c9e;
 }
 
-#content-contact {
+#contact-us {
     background-color: #f0f0f0;
 }
 
