@@ -41,7 +41,7 @@ $(document).ready(function () {
   });
 
   // Synchronize hover effect for footer sponsor logos
-  $('.footer .sponsor').on({
+  $('.footer .sponsor a').on({
     'mouseenter': function() {
       $(this).find('.logo-placeholder').addClass('hover');
     }, 'mouseleave': function() {

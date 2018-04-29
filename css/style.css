@@ -330,16 +330,22 @@ nav.navbar.navbar-view-static {
     margin-bottom: 32px;
 }
 
-.footer .sponsor {
+.footer .sponsor a {
     padding: 0;
     cursor: pointer;
+    text-decoration: none;
+
+    -webkit-transition: color 0.6s;
+    -moz-transition: color 0.6s;
+    -o-transition: color 0.6s;
+    transition: color 0.6s;
 }
 
 .footer .sponsor h6 {
     color: #868686;
 }
 
-.footer .sponsor .logo-text {
+.footer .sponsor a .logo-text {
     padding: 0;
 }
 
@@ -350,21 +356,21 @@ nav.navbar.navbar-view-static {
     background-repeat: no-repeat;
     background-position: center;
 
-    -webkit-transition: color 0.6s, background-image 0.6s;
-    -moz-transition: color 0.6s, background-image 0.6s;
-    -o-transition: color 0.6s, background-image 0.6s;
-    transition: color 0.6s, background-image 0.6s;
+    -webkit-transition: background-image 0.6s;
+    -moz-transition: background-image 0.6s;
+    -o-transition: background-image 0.6s;
+    transition: background-image 0.6s;
 }
 
-.footer .sponsor.old-mutual:hover {
+.footer .sponsor.old-mutual a:hover {
     color: #6eab24;
 }
 
-.footer .sponsor.psc:hover {
+.footer .sponsor.psc a:hover {
     color: #84b7bb;
 }
 
-.footer .sponsor.up:hover {
+.footer .sponsor.up a:hover {
     color: #c48b3b;
 }
 
