@@ -283,6 +283,7 @@ nav.navbar.navbar-view-static {
     height: 100%;
     color: #868686;
     cursor: pointer;
+    text-decoration: none;
 
     -webkit-transition: color 0.6s;
     -moz-transition: color 0.6s;
