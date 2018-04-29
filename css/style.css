@@ -265,10 +265,6 @@ nav.navbar.navbar-view-static {
     height: 100px;
 }
 
-.footer-connect-icons {
-    margin-top: 32px;
-}
-
 .footer-connect-icons i,
 .footer-connect-icons h6 {
     margin: 0 16px;
@@ -309,7 +305,6 @@ nav.navbar.navbar-view-static {
 .footer-navigate h6,
 .footer-sponsors h6 {
     color: #c2c2c2;
-    margin-bottom: 32px;
 }
 
 .footer-navigate ul {
@@ -324,10 +319,6 @@ nav.navbar.navbar-view-static {
 
 .footer-navigate ul li a:hover {
     color: #c2c2c2;
-}
-
-.footer-sponsors h6 {
-    margin-bottom: 32px;
 }
 
 .footer .sponsor a {
