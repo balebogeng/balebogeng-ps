@@ -254,9 +254,46 @@ nav.navbar.navbar-view-static {
 .footer {
     background-color: #222222;
     color: #f0f0f0;
-    padding: 32px 0;
+    padding: 64px 0;
 }
 
 .footer-logo {
     height: 100px;
+}
+
+.footer-connect-icons {
+    margin-top: 32px;
+}
+
+.footer-connect-icons h6 {
+    margin: 0 16px;
+    color: #868686;
+}
+
+.footer-connect-icons i {
+    margin: 0 16px;
+    font-size: 32px;
+}
+
+.footer-connect-icons .footer-connect-icon-wrap {
+    display: inline;
+    color: #868686;
+    cursor: pointer;
+
+    -webkit-transition: color 0.6s;
+    -moz-transition: color 0.6s;
+    -o-transition: color 0.6s;
+    transition: color 0.6s;
+}
+
+.footer-connect-icon-wrap.facebook:hover {
+    color: #3b5998;
+}
+
+.footer-connect-icon-wrap.mail:hover {
+    color: #e2c044;
+}
+
+.footer-connect-icon-wrap.github:hover {
+    color: #ffffff;
 }
