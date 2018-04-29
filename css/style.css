@@ -253,8 +253,12 @@ nav.navbar.navbar-view-static {
 /*  --- Footer --- */
 .footer {
     background-color: #222222;
-    color: #f0f0f0;
     padding: 64px 0;
+}
+
+.footer,
+.footer a {
+    color: #868686;
 }
 
 .footer-logo {
@@ -265,13 +269,12 @@ nav.navbar.navbar-view-static {
     margin-top: 32px;
 }
 
+.footer-connect-icons i,
 .footer-connect-icons h6 {
     margin: 0 16px;
-    color: #868686;
 }
 
 .footer-connect-icons i {
-    margin: 0 16px;
     font-size: 32px;
 }
 
@@ -301,4 +304,23 @@ nav.navbar.navbar-view-static {
 
 .footer-connect-icon-wrap.github a:hover {
     color: #ffffff;
+}
+
+.footer-navigate h6 {
+    color: #c2c2c2;
+}
+
+.footer-navigate ul {
+    margin-top: 32px;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-navigate ul li a {
+    padding: 4px 0;
+}
+
+.footer-navigate ul li a:hover {
+    color: #c2c2c2;
 }
