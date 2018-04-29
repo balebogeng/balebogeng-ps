@@ -19,7 +19,7 @@ $(document).ready(function () {
   });
 
   // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+  $('a').on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Prevent default anchor click behavior
@@ -38,6 +38,15 @@ $(document).ready(function () {
         window.location.hash = hash;
       });
     } // End if
+  });
+
+  // Synchronize hover effect for footer sponsor logos
+  $('.footer .sponsor a').on({
+    'mouseenter': function() {
+      $(this).find('.logo-placeholder').addClass('hover');
+    }, 'mouseleave': function() {
+      $(this).find('.logo-placeholder').removeClass('hover');
+    }
   });
 
 });

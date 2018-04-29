@@ -253,7 +253,141 @@ nav.navbar.navbar-view-static {
 /*  --- Footer --- */
 .footer {
     background-color: #222222;
-    color: #f0f0f0;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding: 64px 0;
+}
+
+.footer,
+.footer a {
+    color: #868686;
+}
+
+.footer-logo {
+    height: 100px;
+}
+
+.footer-connect-icons i,
+.footer-connect-icons h6 {
+    margin: 0 16px;
+}
+
+.footer-connect-icons i {
+    font-size: 32px;
+}
+
+.footer-connect-icons .footer-connect-icon-wrap {
+    display: inline;
+}
+
+.footer-connect-icons .footer-connect-icon-wrap a {
+    height: 100%;
+    color: #868686;
+    cursor: pointer;
+    text-decoration: none;
+
+    -webkit-transition: color 0.6s;
+    -moz-transition: color 0.6s;
+    -o-transition: color 0.6s;
+    transition: color 0.6s;
+}
+
+.footer-connect-icon-wrap.facebook a:hover {
+    color: #3b5998;
+}
+
+.footer-connect-icon-wrap.mail a:hover {
+    color: #e2c044;
+}
+
+.footer-connect-icon-wrap.github a:hover {
+    color: #ffffff;
+}
+
+.footer-navigate h6,
+.footer-sponsors h6 {
+    color: #c2c2c2;
+}
+
+.footer-navigate ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-navigate ul li a {
+    padding: 4px 0;
+}
+
+.footer-navigate ul li a:hover {
+    color: #c2c2c2;
+}
+
+.footer .sponsor a {
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+
+    -webkit-transition: color 0.6s;
+    -moz-transition: color 0.6s;
+    -o-transition: color 0.6s;
+    transition: color 0.6s;
+}
+
+.footer .sponsor h6 {
+    color: #868686;
+}
+
+.footer .sponsor a .logo-text {
+    padding: 0;
+}
+
+.footer .sponsor .logo-placeholder {
+    min-height: 50px;
+    min-width: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    -webkit-transition: background-image 0.6s;
+    -moz-transition: background-image 0.6s;
+    -o-transition: background-image 0.6s;
+    transition: background-image 0.6s;
+}
+
+.footer .sponsor.old-mutual a:hover {
+    color: #6eab24;
+}
+
+.footer .sponsor.psc a:hover {
+    color: #84b7bb;
+}
+
+.footer .sponsor.up a:hover {
+    color: #c48b3b;
+}
+
+.footer .sponsor.old-mutual .logo-placeholder {
+    background-image: url(../img/old-mutual.svg);
+}
+
+.footer .sponsor.psc .logo-placeholder {
+    background-image: url(../img/public-service-commission.svg);
+}
+
+.footer .sponsor.up .logo-placeholder {
+    background-image: url(../img/university-of-pretoria.svg);
+}
+
+.footer .sponsor.old-mutual .logo-placeholder:hover,
+.footer .sponsor.old-mutual .logo-placeholder.hover {
+    background-image: url(../img/old-mutual-alt.svg);
+}
+
+.footer .sponsor.psc .logo-placeholder:hover,
+.footer .sponsor.psc .logo-placeholder.hover {
+    background-image: url(../img/public-service-commission-alt.svg);
+}
+
+.footer .sponsor.up .logo-placeholder:hover,
+.footer .sponsor.up .logo-placeholder.hover {
+    background-image: url(../img/university-of-pretoria-alt.svg);
 }
