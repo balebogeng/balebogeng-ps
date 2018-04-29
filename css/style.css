@@ -341,10 +341,6 @@ nav.navbar.navbar-view-static {
 
 .footer .sponsor .logo-text {
     padding: 0;
-    -webkit-transition: color 0.6s;
-    -moz-transition: color 0.6s;
-    -o-transition: color 0.6s;
-    transition: color 0.6s;
 }
 
 .footer .sponsor .logo-placeholder {
@@ -384,14 +380,17 @@ nav.navbar.navbar-view-static {
     background-image: url(../img/university-of-pretoria.svg);
 }
 
-.footer .sponsor.old-mutual .logo-placeholder:hover {
+.footer .sponsor.old-mutual .logo-placeholder:hover,
+.footer .sponsor.old-mutual .logo-placeholder.hover {
     background-image: url(../img/old-mutual-alt.svg);
 }
 
-.footer .sponsor.psc .logo-placeholder:hover {
+.footer .sponsor.psc .logo-placeholder:hover,
+.footer .sponsor.psc .logo-placeholder.hover {
     background-image: url(../img/public-service-commission-alt.svg);
 }
 
-.footer .sponsor.up .logo-placeholder:hover {
+.footer .sponsor.up .logo-placeholder:hover,
+.footer .sponsor.up .logo-placeholder.hover {
     background-image: url(../img/university-of-pretoria-alt.svg);
 }
