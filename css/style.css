@@ -234,9 +234,6 @@ nav.navbar.navbar-view-static {
 .container-fluid.content-main {
     padding: 0;
 }
-.content-section .row {
-    margin: 0 !important;
-}
 
 #about-us {
     background-color: #ffffff;
