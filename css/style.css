@@ -240,9 +240,10 @@ nav.navbar.navbar-view-static {
 }
 
 #activities {
+    color: #222222;
     background-color: #f0f0f0;
     min-height: 300px;
-    background-image: url(../img/writing.jpg);
+    background-image: url(../img/field.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
