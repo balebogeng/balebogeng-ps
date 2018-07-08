@@ -254,6 +254,12 @@ nav.navbar.navbar-view-static {
     background-color: #145c9e;
 }
 
+@media(max-width: 992px) {
+    .pgw-slider {
+        visibility: hidden;
+    }
+}
+
 #contact-us {
     background-color: #f0f0f0;
 }
