@@ -40,19 +40,20 @@ $(document).ready(function () {
     } // End if
   });
 
-  $('.slick-slider').slick({
+  $('.slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
+    adaptiveHeight: true,
     arrows: false,
     fade: true,
-    asNavFor: '.slick-nav'
+    asNavFor: '.slider-nav'
   });
 
-  $('.slick-nav').slick({
-    slidesToShow: 3,
+  $('.slider-nav').slick({
+    slidesToShow: 4,
     slidesToScroll: 1,
-    asNavFor: '.slick-slider',
-    dots: true,
+    asNavFor: '.slider',
+    arrows: true,
     centerMode: true,
     focusOnSelect: true
   });
