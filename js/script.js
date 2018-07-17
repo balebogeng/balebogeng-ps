@@ -37,7 +37,44 @@ $(document).ready(function () {
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
-    } // End if
+    }
+  });
+
+  // Initialise slick carousel for iamge gallery.
+  $('.slider-nav').slick({
+    arrows: false,
+    centerMode: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    mobileFirst: true,
+    responsive: [{
+      breakpoint: 2200,
+      settings: {
+        arrows: true,
+        slidesToShow: 5,
+      }
+    }, {
+      breakpoint: 1024,
+      settings: {
+        arrows: true,
+        slidesToShow: 3,
+      }
+    }, {
+      breakpoint: 991,
+      settings: {
+        arrows: true
+      }
+    }, {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+      }
+    }]
+  });
+
+  // Initialise simple ligthbox for gallery image viewing.
+  $('.slider-nav a').simpleLightbox({
+    showCounter: false,
   });
 
   // Synchronize hover effect for footer sponsor logos

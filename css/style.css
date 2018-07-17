@@ -254,6 +254,29 @@ nav.navbar.navbar-view-static {
     background-color: #145c9e;
 }
 
+#gallery h1 {
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.gallery-slide {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 320px;
+}
+
+@media(max-width: 1024px) {
+  .gallery-slide {
+      height: 480px;
+  }
+}
+
+@media(max-width: 576px) {
+    .gallery-slide {
+        height: 280px;
+    }
+}
+
 #contact-us {
     background-color: #f0f0f0;
 }
