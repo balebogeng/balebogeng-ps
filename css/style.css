@@ -254,13 +254,26 @@ nav.navbar.navbar-view-static {
     background-color: #145c9e;
 }
 
-.slider-nav .slick-track > img {
-    height: 175px;
+#gallery h1 {
+  text-align: center;
+  color: #f0f0f0;
 }
 
-@media(max-width: 992px) {
-    .pgw-slider {
-        visibility: hidden;
+.gallery-slide {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 320px;
+}
+
+@media(max-width: 1024px) {
+  .gallery-slide {
+      height: 480px;
+  }
+}
+
+@media(max-width: 576px) {
+    .gallery-slide {
+        height: 280px;
     }
 }
 
