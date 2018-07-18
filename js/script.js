@@ -1,15 +1,12 @@
 $(document).ready(function () {
-  /* Global vars */
-  var SCROLL_PX_LIMIT = 65;
 
-  /* Events */
   // Un-blend the navbar from the content header when scrolling
   $(window).scroll(function () {
     /* 
      * If the user scrolls past a scroll limit,
      * add and remove CSS classes for transition effects.
      */
-    if ($(this).scrollTop() > SCROLL_PX_LIMIT) {
+    if ($(this).scrollTop() > 65) {
       $('.navbar-view-blend').addClass('navbar-view-static');
       $('.navbar-view-blend').removeClass('navbar-view-blend');
     } else {
@@ -87,3 +84,11 @@ $(document).ready(function () {
   });
 
 });
+
+// Initialise Google Map.
+function initMap() {
+  // The location of the Balebogeng primary school.
+  var balebogeng = {lat: -25.706817, lng: 28.386091};
+  var map = new google.maps.Map(document.getElementById('map'), {zoom: 15, center: balebogeng});
+  new google.maps.Marker({position: balebogeng, map: map});
+}
