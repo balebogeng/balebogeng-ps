@@ -1,32 +1,414 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
   <!-- Meta Data -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Balebogeng Primary Shool</title>
+  <title>Balebogeng Primary School</title>
   <!-- Styling -->
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/fontawesome-all.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/slick.css" type="text/css" />
+  <link rel="stylesheet" href="css/slick-theme.css" type="text/css" />
+  <link rel="stylesheet" href="css/simplelightbox.min.css" type="text/css" />
   <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body data-spy="scroll" data-target="#navbar-bps" data-offset="51">
+  <!-- Header -->
+  <header>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark navbar-view-blend" id="navbar-bps">
+      <a class="navbar-brand navbar-view-blend" href="#">
+        <img src="img/logo_bps.svg" class="navbar-view-blend" />
+        <span id="navbar-brand-text">Balebogeng Primary School</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#balebogeng-nav" aria-controls="balebogeng-nav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="balebogeng-nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <!-- Empty for right alignment of navbar items -->
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#welcome">Welcome</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-us">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#activities">Activities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-us">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main body -->
+  <main role="main">
+    <section id="welcome">
+      <!-- Main content header -->
+      <div id="content-header"
+        class="position-relative overflow-hidden p-md-5 m-md-3 text-center bg-light">
+        <div class="col-md-7 p-lg-5 mx-md-3 my-5 mx-sm-0">
+          <h1 class="display-5 font-weight-bold text-bps-gold">Welcome</h1>
+          <blockquote class="blockquote">
+            <p class="mb-0 font-italic test-light">
+              <span id="giant-quote" class="text-giant">&#8220;</span>
+              We invite you to be part of a family that has contributed directly and indirectly to
+              the lives of so many individuals.
+            </p>
+            <footer class="blockquote-footer text-bps-gold">Principal</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main body content container -->
+    <div class="container-fluid content-main">
+      <!-- Remove height styling: Temporary for content simulation -->
+      <section id="about-us" class="content-section">
+        <div class="row no-gutters py-4 px-4 p-md-5">
+          <div class="col-12 col-md-4 py-2 p-md-4 p-xl-5">
+            <h3>
+              <span class="mr-1">
+                <i class="fas fa-bullhorn"></i>
+              </span>
+              About us
+            </h3>
+            <p class="text-justify">
+              We are a primary school situated in Mamelodi, Pretoria, dedicated to
+              enthusiastically engaging our students in their learning, supported
+              by well-trained and caring staff who work to ensure the best
+              opportunities for every student.
+            </p>
+          </div>
+          <div class="col-12 col-md-4 py-2 p-md-4 p-xl-5">
+            <h3>
+              <span class="mr-1">
+                <i class="far fa-compass"></i>
+              </span>
+              Vision
+            </h3>
+            <p class="text-justify">
+              Our vision is to ensure that every student performs well
+              academically and leaves the institution with values, knowledge, skills
+              and qualifications that will give him or her the best chance of
+              success in future.
+            </p>
+          </div>
+          <div class="col-12 col-md-4 py-2 p-md-4 p-xl-5">
+            <h3>
+              <span class="mr-1">
+                <i class="fas fa-bullseye"></i>
+              </span>
+              Mission
+            </h3>
+            <p class="text-justify">
+              We strive to ensure that quality learning and teaching takes place our
+              classrooms everyday so that every student may have the opportunity to make the most
+              of his or her education.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="activities" class="content-section">
+        <div class="row no-gutters py-4 px-4 p-md-5 text-center justify-content-center">
+          <div class="col-12 py-3 p-md-4 p-xl-5">
+            <h3 class="d-block">
+              <span class="mr-1">
+                <i class="fas fa-child"></i>
+              </span>
+              Extramural Activities
+            </h3>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 py-3 p-md-4 p-xl-5">
+            <div class="row">
+              <div class="col-12">
+                <img src="img/activity-soccer.svg" class="img-fluid" />
+              </div>
+              <div class="col-12">
+                <h3>Soccer</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 py-3 p-md-4 p-xl-5">
+            <div class="row">
+              <div class="col-12">
+                <img src="img/activity-netball.svg" class="img-fluid" />
+              </div>
+              <div class="col-12">
+                <h3>Netball</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 py-3 p-md-4 p-xl-5">
+            <div class="row">
+              <div class="col-12">
+                <img src="img/activity-volleyball.svg" class="img-fluid" />
+              </div>
+              <div class="col-12">
+                <h3>Volleyball</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 py-3 p-md-4 p-xl-5">
+            <div class="row">
+              <div class="col-12">
+                <img src="img/activity-athletics.svg" class="img-fluid" />
+              </div>
+              <div class="col-12">
+                <h3>Athletics</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 py-3 p-md-4 p-xl-5">
+            <div class="row">
+              <div class="col-12">
+                <img src="img/activity-drama.svg" class="img-fluid" />
+              </div>
+              <div class="col-12">
+                <h3>Dance and Drama</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 py-3 p-md-4 p-xl-5">
+            <div class="row">
+              <div class="col-12">
+                <img src="img/activity-mini-cricket.svg" class="img-fluid" />
+              </div>
+              <div class="col-12">
+                <h3>Mini-cricket</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 py-3 p-md-4 p-xl-5">
+            <div class="row">
+              <div class="col-12">
+                <img src="img/activity-band.svg" class="img-fluid" />
+              </div>
+              <div class="col-12">
+                <h3>Field Band</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="gallery" class="content-section">
+        <div class="row no-gutters pt-4 p-lg-4">
+          <div class="col-12 px-lg-2">
+            <h3>
+              <span class="mr-1">
+                <i class="far fa-images"></i>
+              </span>
+              Gallery
+            </h3>
+            <div class="slider-nav pt-3 py-lg-3">
+              <a class="gallery-slide" href="img/gallery/20140625_103253.jpg"
+                style="background-image: url(img/gallery/20140625_103253.jpg)">
+              </a>
+              <a class="gallery-slide" href="img/gallery/20140626_130457.jpg"
+                style="background-image: url(img/gallery/20140626_130457.jpg)">
+              </a>
+              <a class="gallery-slide" href="img/gallery/20140905_141503.jpg"
+                style="background-image: url(img/gallery/20140905_141503.jpg)">
+              </a>
+              <a class="gallery-slide" href="img/gallery/20140926_102806.jpg"
+                style="background-image: url(img/gallery/20140926_102806.jpg)">
+              </a>
+              <a class="gallery-slide" href="img/gallery/20141128_124717.jpg"
+                style="background-image: url(img/gallery/20141128_124717.jpg)">
+              </a>
+              <a class="gallery-slide" href="img/gallery/20150805_125156.jpg"
+                style="background-image: url(img/gallery/20150805_125156.jpg)">
+              </a>
+              <a class="gallery-slide" href="img/gallery/20150805_125320.jpg"
+                style="background-image: url(img/gallery/20150805_125320.jpg)">
+              </a>
+              <a class="gallery-slide" href="img/gallery/20150805_125516.jpg"
+                style="background-image: url(img/gallery/20150805_125516.jpg)">
+              </a>
+              <a class="gallery-slide" href="img/gallery/20150805_125536.jpg"
+                style="background-image: url(img/gallery/20150805_125536.jpg)">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact-us" class="content-section">
+        <div class="row no-gutters">
+          <div class="col-sm-12 col-lg-6 px-4 py-5 p-sm-5">
+              <h3>
+                <span class="mr-1">
+                  <i class="fas fa-address-book"></i>
+                </span>
+                Contact us
+              </h3>
+              <ul class="contact-list p-1 p-sm-3">
+                <li class="py-1">
+                  <i class="fas fa-phone mr-2"></i>
+                  <span class="d-none d-sm-inline-block">Tel: </span>
+                  +27 12 801 1344
+                </li>
+                <li class="py-1">
+                  <i class="fas fa-fax mr-2"></i>
+                  <span class="d-none d-sm-inline-block">Fax: </span>
+                  +27 12 801 1344
+                </li>
+                <li class="py-1">
+                  <i class="fas fa-at mr-2"></i>
+                  <span class="d-none d-sm-inline-block">Email: </span>
+                  <a href="mailto:balebogengps@gmail.com" target="_top">
+                    balebogengps@gmail.com
+                  </a>
+                </li>
+                <li class="py-1">
+                  <i class="fab fa-facebook mr-2"></i>
+                  <span class="d-none d-sm-inline-block">Facebook: </span>
+                  <a href="https://www.facebook.com/Balebogeng-Primary-School-513399828673653/"
+                    target="_blank">
+                    Balebogeng Primary School
+                  </a>
+                </li>
+                <li class="py-1">
+                  <i class="fas fa-map-marker-alt mr-2"></i>
+                  <span class="d-none d-sm-inline-block">Address: </span>
+                  13159 Tsamaya Rd, Mamelodi, <span class="contact-list-offset">Pretoria</span>
+                </li>
+              </ul>
+          </div>
+          <div id="map" class="col-sm-12 col-lg-6"></div>
+        </div>
+      </section>
+    </div>
+    <!-- /.container -->
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <!-- Stay connected section -->
+        <div class="col-md-12 col-lg-4 text-center">
+          <div class="col-sm-12">
+            <img src="img/logo_bps.svg" class="footer-logo" />
+          </div>
+          <div class="col-sm-12 footer-connect-icons mt-3">
+            <div class="footer-connect-icon-wrap facebook">
+              <a href="https://www.facebook.com/Balebogeng-Primary-School-513399828673653/" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
+            <div class="footer-connect-icon-wrap mail">
+              <a href="mailto:balebogengps@gmail.com" target="_top">
+                <i class="far fa-envelope"></i>
+              </a>
+            </div>
+            <div class="footer-connect-icon-wrap github">
+              <a href="https://github.com/jan-justin/balebogeng-ps/" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-12 footer-connect-icons mt-2">
+            <h6>balebogengps@gmail.com</h6>
+          </div>
+        </div>
+        <!-- Navigation section -->
+        <div class="col-12 col-md-5 offset-md-2 col-lg-3 offset-lg-1 mt-5 mt-lg-0">
+          <div class="footer-navigate text-center text-md-left">
+            <h6>Navigate</h6>
+            <ul class="footer-nav mt-3">
+              <li>
+                <a class="nav-link" href="#welcome">Welcome</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#about-us">About us</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#activities">Activities</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#contact-us">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Sponsors and acknowledgements section -->
+        <div class="col-12 col-md-5 col-lg-4 mt-5 mt-lg-0">
+          <div class="footer-sponsors text-center text-md-left">
+            <h6>Sponsors &amp; Acknowledgements</h6>
+            <div class="row no-gutters mt-3">
+              <!-- Old Mutual -->
+              <div class="col-12 sponsor old-mutual mt-2 mt-md-0">
+                <a href="https://www.oldmutual.co.za/" target="_blank">
+                  <div class="row align-items-center">
+                    <div class="col-sm-12 col-md-3">
+                      <div class="logo-placeholder"></div>
+                    </div>
+                    <div class="col-12 col-md-9 logo-text">
+                      <span>Old Mutual</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <!-- PSC -->
+              <div class="col-12 sponsor psc mt-2 mt-md-0">
+                <a href="http://www.psc.gov.za/" target="_blank">
+                  <div class="row align-items-center">
+                    <div class="col-12 col-md-3">
+                      <div class="logo-placeholder"></div>
+                    </div>
+                    <div class="col-12 col-md-9 logo-text">
+                      <span>Public Service Commission</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <!-- UP -->
+              <div class="col-12 sponsor up mt-2 mt-md-0">
+                <a href="http://www.up.ac.za/" target="_blank">
+                  <div class="row align-items-center">
+                    <div class="col-12 col-md-3">
+                      <div class="logo-placeholder"></div>
+                    </div>
+                    <div class="col-12 col-md-9 logo-text">
+                      <span>University of Pretoria</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+  </footer>
+
   <!-- Scripts -->
+  <!-- Placed at the bottom for faster loading of page -->
   <script src="js/jquery.min.js" type="application/javascript"></script>
   <script src="js/popper.min.js" type="application/javascript"></script>
   <script src="js/bootstrap.min.js" type="application/javascript"></script>
+  <script src="js/slick.min.js" type="application/javascript"></script>
+  <script src="js/simple-lightbox.min.js" type="application/javascript"></script>
+  <!--  -->
   <script src="js/script.js" type="application/javascript"></script>
-</head>
-
-<body>
-  <!-- Navbar  -->
-  <nav>
-  </nav>
-
-  <div class="container">
-    <!-- Footer -->
-    <footer>
-    </footer>
-  </div> 
-  <!-- /.container -->
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8INjvU1V7GqlLmLN6zOZKQxxi_ggYsl8&callback=initMap">
+  </script>
 </body>
 </html>
