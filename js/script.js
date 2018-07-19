@@ -97,8 +97,11 @@ function initMap() {
   // The location of the Balebogeng primary school.
   var balebogeng = {lat: -25.706817, lng: 28.386091};
   var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 15,
+    zoom: 16,
     center: balebogeng
   });
-  new google.maps.Marker({position: balebogeng, map: map});
+  new google.maps.Marker({
+    position: balebogeng,
+    map: map
+  });
 }
