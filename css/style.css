@@ -99,8 +99,8 @@ nav.navbar.navbar-view-static {
 }
 
 .navbar-brand.navbar-view-static img {
-    height: 65px;
-    width: 65px;
+    height: 54px;
+    width: 54px;
 
     -webkit-transition: width 0.8s, height 0.8s;
     -moz-transition: width 0.8s, height 0.8s;
