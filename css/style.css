@@ -99,8 +99,8 @@ nav.navbar.navbar-view-static {
 }
 
 .navbar-brand.navbar-view-static img {
-    height: 65px;
-    width: 65px;
+    height: 54px;
+    width: 54px;
 
     -webkit-transition: width 0.8s, height 0.8s;
     -moz-transition: width 0.8s, height 0.8s;
@@ -291,10 +291,28 @@ nav.navbar.navbar-view-static {
     min-height: 350px;
 }
 
+@media(max-width: 1150px) {
+  .contact-list {
+      font-size: 16px;
+  }
+}
+
+@media(max-width: 998px) and (min-width: 992px) {
+  .contact-list-offset {
+      margin-left: 24px;
+  }
+}
+
 @media(max-width: 400px) {
     .contact-list {
         font-size: 16px;
     }
+}
+
+@media(max-width: 358px) {
+  .contact-list-offset {
+      margin-left: 26px;
+  }
 }
 
 /*  --- Footer --- */
