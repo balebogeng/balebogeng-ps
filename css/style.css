@@ -202,7 +202,7 @@ nav.navbar.navbar-view-static {
     margin: 0 !important;
     padding-top: 205px !important;
     padding-bottom: 140px !important;
-    background-image: url(../img/board.jpg);
+    background-image: url(../img/decorative/board.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -243,7 +243,7 @@ nav.navbar.navbar-view-static {
     color: #222222;
     background-color: #f0f0f0;
     min-height: 300px;
-    background-image: url(../img/field.jpg);
+    background-image: url(../img/decorative/field.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -431,28 +431,28 @@ nav.navbar.navbar-view-static {
 }
 
 .footer .sponsor.old-mutual .logo-placeholder {
-    background-image: url(../img/old-mutual.svg);
+    background-image: url(../img/logo/old-mutual.svg);
 }
 
 .footer .sponsor.psc .logo-placeholder {
-    background-image: url(../img/public-service-commission.svg);
+    background-image: url(../img/logo/public-service-commission.svg);
 }
 
 .footer .sponsor.up .logo-placeholder {
-    background-image: url(../img/university-of-pretoria.svg);
+    background-image: url(../img/logo/university-of-pretoria.svg);
 }
 
 .footer .sponsor.old-mutual .logo-placeholder:hover,
 .footer .sponsor.old-mutual .logo-placeholder.hover {
-    background-image: url(../img/old-mutual-alt.svg);
+    background-image: url(../img/logo/old-mutual-alt.svg);
 }
 
 .footer .sponsor.psc .logo-placeholder:hover,
 .footer .sponsor.psc .logo-placeholder.hover {
-    background-image: url(../img/public-service-commission-alt.svg);
+    background-image: url(../img/logo/public-service-commission-alt.svg);
 }
 
 .footer .sponsor.up .logo-placeholder:hover,
 .footer .sponsor.up .logo-placeholder.hover {
-    background-image: url(../img/university-of-pretoria-alt.svg);
+    background-image: url(../img/logo/university-of-pretoria-alt.svg);
 }
