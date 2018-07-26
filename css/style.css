@@ -30,7 +30,8 @@ nav a {
 }
 
 nav a:hover,
-nav.navbar.navbar-view-blend a:hover  {
+nav.navbar.navbar-view-blend a:hover,
+nav.navbar.navbar-view-static a:hover  {
     color: #e2c044;
 }
 
