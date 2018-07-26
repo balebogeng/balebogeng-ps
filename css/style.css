@@ -30,7 +30,8 @@ nav a {
 }
 
 nav a:hover,
-nav.navbar.navbar-view-blend a:hover  {
+nav.navbar.navbar-view-blend a:hover,
+nav.navbar.navbar-view-static a:hover  {
     color: #e2c044;
 }
 
@@ -190,11 +191,9 @@ nav.navbar.navbar-view-static {
 }
 
 @media (max-width: 380px) {
-
-    .navbar-brand.navbar-brand.navbar-view-static #navbar-brand-text {
-        visibility: hidden;
-        font-size: 8px;
-    }
+    .navbar-brand.navbar-brand.navbar-view-static #navbar-brand-text .overflow {
+        display: none;
+  }
 }
 
 /* Content Header */
@@ -233,6 +232,10 @@ nav.navbar.navbar-view-static {
 /* --- Content Main --- */
 .container-fluid.content-main {
     padding: 0;
+}
+
+.section-text {
+    font-size: 1.2rem;
 }
 
 #about-us {
