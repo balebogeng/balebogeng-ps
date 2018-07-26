@@ -235,6 +235,10 @@ nav.navbar.navbar-view-static {
     padding: 0;
 }
 
+.section-text {
+    font-size: 1.2rem;
+}
+
 #about-us {
     background-color: #ffffff;
 }
