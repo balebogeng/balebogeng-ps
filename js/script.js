@@ -70,6 +70,9 @@ $(document).ready(function () {
     showCounter: false,
   });
 
+  // Initialise Leaflet.js map.
+  var map = initMap();
+
   // Synchronize hover effect for footer sponsor logos
   $('.footer .sponsor a').on({
     'mouseenter': function() {
@@ -96,13 +99,27 @@ function navbarBlend() {
 // Initialise Google Map.
 function initMap() {
   // The location of the Balebogeng primary school.
-  var balebogeng = {lat: -25.706817, lng: 28.386091};
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 16,
-    center: balebogeng
+  var balebogeng = [-25.706817, 28.386091];
+  var map = L.map('map', {
+    center: balebogeng,
+    zoom: 16
   });
-  new google.maps.Marker({
-    position: balebogeng,
-    map: map
-  });
+  // Add map layers.
+  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    attribution: 'Map data &copy; '
+        + '<a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, '
+        + '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, '
+        + 'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 18,
+    id: 'mapbox.streets',
+    accessToken: 'pk.eyJ1IjoiamFuLWp1c3RpbiIsImEiOiJjamttZHlteWgwcDF4M3dwb3JmeG1saWpyIn0.e1I9wsxI7QgZI3z3q2jf3w'
+  }).addTo(map);
+  // Add marker to map.
+  L.marker(balebogeng).addTo(map);
+  // Add text popup.
+  L.popup()
+    .setLatLng([balebogeng[0] + 0.0005, balebogeng[1]])
+    .setContent("Balebogeng Primary School")
+    .openOn(map)
+  return map;
 }
